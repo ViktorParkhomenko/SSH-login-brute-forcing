@@ -4,7 +4,9 @@ This project illustrates the process of brute-forcing SSH login credentials usin
 
 This project replicates a common security testing scenario, where penetration testers perform brute-force attacks to evaluate the strength of system authentication. It offers a practical learning experience in understanding how brute-force attacks are carried out and highlights how systems can be vulnerable to such attacks when robust password policies are not implemented.
 
-enable ssh on a local host, ensure its running 
+To enable SSH on my Kali Linux machine, I ran sudo systemctl start ssh to start the service. I then checked its status with sudo systemctl status ssh and verified it was listening on port 22 using sudo netstat -tuln | grep :22
+
+
 sudo systemctl start ssh
 sudo systemctl status ssh
 sudo netstat -tuln | grep 22
