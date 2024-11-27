@@ -19,6 +19,18 @@ from pwn import * imports all functions and classes from the pwntools library, w
 
 import paramiko imports the paramiko library, which is used for SSH connections in Python. It allows you to create, manage, and automate SSH sessions, making it useful for tasks like remote server administration and brute-forcing SSH login credentials.
 
+host = "127.0.0.1": Specifies the target SSH server's IP address (localhost, in this case). This script is testing the SSH server running on the same machine.
+username = "kali": Defines the username to use for the SSH login attempts. The username remains constant throughout the brute-force process.
+attempts = 0: Initializes a counter to keep track of how many password attempts have been made.
+
+The top 10,000 passwords are available for download on GitHub: https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
+
+
+
+
+
+
+
 _______________________________________________
 Project Overview
 
