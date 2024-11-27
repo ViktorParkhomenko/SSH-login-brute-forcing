@@ -10,6 +10,9 @@ Start the SSH service with sudo systemctl start ssh.
 Check the status of the service using sudo systemctl status ssh.
 Verify SSH is listening on port 22 by running sudo netstat -tuln | grep :22.
 These steps ensure that SSH is running and accessible on the local machine.
+![Screenshot_2024-11-27_13-44-07](https://github.com/user-attachments/assets/c522aa48-f008-4882-9e29-896688024fd6)
+
+
 
 
 
