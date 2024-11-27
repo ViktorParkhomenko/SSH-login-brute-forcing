@@ -13,6 +13,7 @@ These steps ensure that SSH is running and accessible on the local machine.
 ![Screenshot_2024-11-27_13-44-07](https://github.com/user-attachments/assets/c522aa48-f008-4882-9e29-896688024fd6)
 
 
+![Screenshot_2024-11-27_14-31-20](https://github.com/user-attachments/assets/d016d4f8-85f9-427a-a0f3-53fe566aa47b)
 
 
 
