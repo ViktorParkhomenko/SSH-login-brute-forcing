@@ -23,23 +23,10 @@ host = "127.0.0.1": Specifies the target SSH server's IP address (localhost, in 
 username = "kali": Defines the username to use for the SSH login attempts. The username remains constant throughout the brute-force process.
 attempts = 0: Initializes a counter to keep track of how many password attempts have been made.
 
-The top 10,000 passwords are available for download on GitHub: https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
+The most commonly used passwords are available for download on GitHub: https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
 
+This Python script continuously attempts to authenticate using a list of the most commonly used passwords. Once it identifies a valid password, it stops and displays the valid password found.
 
-
-
-
-
-
-_______________________________________________
-Project Overview
-
-1 create a script 
-to find top 10000 password you can download here https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
-2 enable ssh on a local host 
-3 run script 
-4 once our script identify valid password it stops and show as 
-5 here is an example of using existing python modules - pwn and paramiko to perform common hacking task of brute forcing
-
+![Screenshot_2024-11-27_14-54-21](https://github.com/user-attachments/assets/273d81ba-43e9-4a5a-8ff0-1b9c9859f4a3)
 
 Conclusion
