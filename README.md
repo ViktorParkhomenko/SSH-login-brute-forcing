@@ -30,3 +30,4 @@ This Python script continuously attempts to authenticate using a list of the mos
 ![Screenshot_2024-11-27_14-54-21](https://github.com/user-attachments/assets/273d81ba-43e9-4a5a-8ff0-1b9c9859f4a3)
 
 Conclusion
+This project effectively demonstrates the process of automating brute-force attacks using Python, showcasing the power of libraries like paramiko for SSH interaction and pwntools for efficient exploitation. It provided valuable insights into vulnerability testing, error handling, and the critical need for strong password policies. By simulating real-world attack scenarios, the project highlighted how attackers can exploit weak credentials and underscored the importance of securing SSH access to protect systems from unauthorized access.
