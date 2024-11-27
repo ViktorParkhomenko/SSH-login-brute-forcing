@@ -4,11 +4,15 @@ This project illustrates the process of brute-forcing SSH login credentials usin
 
 This project replicates a common security testing scenario, where penetration testers perform brute-force attacks to evaluate the strength of system authentication. It offers a practical learning experience in understanding how brute-force attacks are carried out and highlights how systems can be vulnerable to such attacks when robust password policies are not implemented.
 
+enable ssh on a local host, ensure its running 
+sudo systemctl start ssh
+sudo systemctl status ssh
+sudo netstat -tuln | grep 22
 
 
 
 
-
+_______________________________________________
 Project Overview
 
 1 create a script 
