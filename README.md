@@ -12,10 +12,12 @@ Verify SSH is listening on port 22 by running sudo netstat -tuln | grep :22.
 These steps ensure that SSH is running and accessible on the local machine.
 ![Screenshot_2024-11-27_13-44-07](https://github.com/user-attachments/assets/c522aa48-f008-4882-9e29-896688024fd6)
 
-
+Here is an example of using the existing Python modules pwn and paramiko to perform the common hacking task of brute forcing.
 ![Screenshot_2024-11-27_14-31-20](https://github.com/user-attachments/assets/d016d4f8-85f9-427a-a0f3-53fe566aa47b)
 
+from pwn import * imports all functions and classes from the pwntools library, which is commonly used for exploit development and CTF (Capture The Flag) challenges. It provides easy access to functions for networking, binary exploitation, and interacting with remote services.
 
+import paramiko imports the paramiko library, which is used for SSH connections in Python. It allows you to create, manage, and automate SSH sessions, making it useful for tasks like remote server administration and brute-forcing SSH login credentials.
 
 _______________________________________________
 Project Overview
